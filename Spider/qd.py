@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-file = './Spider/18.xlsx'
+file = './Spider/161.xlsx'
 max_a = load_workbook(file).active.max_row
 print(max_a)
 zheng = 0
@@ -62,7 +62,7 @@ def dl(phone, d):
     rw()
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[5]/uni-view[2]/uni-input/div/input').send_keys(
-        123456)
+        888888)
     rw()
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[5]/uni-view[3]/uni-view[1]/uni-view').click()
